@@ -1,0 +1,58 @@
+[
+    {
+        "id": "1533200108107",
+        "src": "images/goods/computer/428_428_1533200108107mp.jpg",
+        "name": "荣耀Magic book",
+        "descript": "购机享受6期免息",
+        "price": 4999
+    },
+    {
+        "id": "1534300912922",
+        "src": "images/goods/computer/428_428_1534300912922mp.jpg",
+        "name": "荣耀Magic book锐龙版",
+        "descript": "购机享受6期免息",
+        "price": 3999
+    },
+    {
+        "id": "1538989229309",
+        "src": "images/goods/computer/428_428_1538989229309mp.png",
+        "name": "华为Mate book D",
+        "descript": "高颜值时尚轻薄",
+        "price": 6488
+    },
+    {
+        "id": "1538989448083",
+        "src": "images/goods/computer/428_428_1538989448083mp.png",
+        "name": "华为Mate book D",
+        "descript": "购机享受6期免息",
+        "price": 4288
+    },
+    {
+        "id": "1539767984482",
+        "src": "images/goods/computer/428_428_1539767984482mp.png",
+        "name": "华为Mate book D",
+        "descript": "高颜值时尚轻薄",
+        "price": 8688
+    },
+    {
+        "id": "1539914852328",
+        "src": "images/goods/computer/428_428_1539914852328mp.png",
+        "name": "华为Mate book D",
+        "descript": "高性能金属轻薄",
+        "price": 4999
+    },
+    {
+        "id": "1539915278180",
+        "src": "images/goods/computer/428_428_1539915278180mp.png",
+        "name": "华为Mate book D",
+        "descript": "高颜值时尚轻薄",
+        "price": 5688
+    },
+    {
+        "id": "1539915445299",
+        "src": "images/goods/computer/428_428_1539915445299mp.png",
+        "name": "华为Mate book D",
+        "descript": "购机享受6期免息",
+        "price": 7288
+    }
+]

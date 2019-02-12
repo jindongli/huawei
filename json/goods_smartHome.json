@@ -1,0 +1,58 @@
+[
+    {
+        "id": "1533200108107",
+        "src": "images/goods/smartHome/428_428_1501065673136mp.jpg",
+        "name": "神奇摄像头",
+        "descript": "购机享受6期免息",
+        "price": 4999
+    },
+    {
+        "id": "1534300912922",
+        "src": "images/goods/smartHome/428_428_1515376079265mp.jpg",
+        "name": "帅气点烟器",
+        "descript": "购机享受6期免息",
+        "price": 3999
+    },
+    {
+        "id": "1538989229309",
+        "src": "images/goods/smartHome/428_428_1539221202270mp.png",
+        "name": "超美榨汁机",
+        "descript": "高颜值时尚轻薄",
+        "price": 6488
+    },
+    {
+        "id": "1538989448083",
+        "src": "images/goods/smartHome/428_428_1539334065645mp.png",
+        "name": "牛逼的可折叠键盘",
+        "descript": "购机享受6期免息",
+        "price": 4288
+    },
+    {
+        "id": "1539767984482",
+        "src": "images/goods/smartHome/428_428_1539745950986mp.png",
+        "name": "无限容量U盘",
+        "descript": "高颜值时尚轻薄",
+        "price": 8688
+    },
+    {
+        "id": "1539914852328",
+        "src": "images/goods/smartHome/428_428_1539763025755mp.png",
+        "name": "吊炸天路由",
+        "descript": "高性能金属轻薄",
+        "price": 4999
+    },
+    {
+        "id": "1539915278180",
+        "src": "images/goods/smartHome/428_428_1540951967494mp.png",
+        "name": "亮瞎眼灯泡",
+        "descript": "高颜值时尚轻薄",
+        "price": 5688
+    },
+    {
+        "id": "1539915445299",
+        "src": "images/goods/smartHome/428_428_1541383347891mp.png",
+        "name": "不知道是啥",
+        "descript": "购机享受6期免息",
+        "price": 7288
+    }
+]

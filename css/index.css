@@ -1,0 +1,468 @@
+@import url(base.css);
+.container {
+  width: 1200px;
+}
+
+.relative {
+  position: relative;
+}
+
+#huawei {
+  width: 100%;
+}
+#huawei #advert {
+  width: 100%;
+  height: 90px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+#huawei #advert .container {
+  font-size: 0;
+  position: relative;
+}
+#huawei #advert .container a {
+  display: block;
+  width: 1920px;
+  margin-left: -370px;
+  text-align: center;
+}
+#huawei #advert .container a img {
+  vertical-align: top;
+}
+#huawei #advert .container #close_advert {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  color: #fff;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: url(../images/vmail/icon1.png) no-repeat;
+  background-position: 0 -385px;
+}
+
+#huawei #banner {
+  min-width: 1200px;
+}
+
+#banner .ec-slider{
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+}
+
+#banner .ec-slider>ul.ec-slider-img>li{
+  width: 100%;
+  display: block;
+  background-position: 50% 0px;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 450px;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+#banner .ec-slider>ul.ec-slider-img>li:nth-child(1){
+  background-image: url(../images/banner/1.jpg);
+}
+
+#banner .ec-slider>ul.ec-slider-img>li:nth-child(2){
+  background-image: url(../images/banner/2.jpg);
+}
+
+#banner .ec-slider>ul.ec-slider-img>li:nth-child(3){
+  background-image: url(../images/banner/3.jpg);
+}
+
+#banner .ec-slider>ul.ec-slider-img>li:nth-child(4){
+  background-image: url(../images/banner/4.jpg);
+}
+
+#banner .ec-slider>ul.ec-slider-img>li:nth-child(5){
+  background-image: url(../images/banner/5.jpg);
+}
+
+#banner .ec-slider>ul.ec-slider-img>li:nth-child(6){
+  background-image: url(../images/banner/6.jpg);
+}
+
+#banner .ec-slider>ul.ec-slider-img>li:nth-child(7){
+  background-image: url(../images/banner/7.jpg);
+}
+
+#banner .ec-slider>ul.ec-slider-img>li:nth-child(8){
+  background-image: url(../images/banner/8.jpg);
+}
+
+#banner .ec-slider>ul.ec-slider-img>li:nth-child(9){
+  background-image: url(../images/banner/9.jpg);
+}
+
+
+#banner .ec-slider>ul>li>div{
+  margin: 0 auto;
+  text-align: right;
+  width: 100%;
+}
+
+#banner .ec-slider .ec-slider-nav-1 {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  width: 300px;
+  margin-left: -150px;
+  height: 10px;
+}
+
+.ec-slider .ec-slider-nav-1 li{
+  float: left;
+  height: 10px;
+  width: 10px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: default;
+  background: transparent;
+}
+
+.ec-slider .ec-slider-nav-1 li.current{
+  background: white;
+}
+
+
+
+
+
+
+
+#huawei .home-channel-menu {
+  background: #f5f5f5;
+  overflow: hidden;
+}
+
+.home-channel-menu .home-channel-list{
+  width: 1198px;
+  height: 97px;
+  border: 1px solid #eaeaea;
+  border-top: none;
+  background: #fff;
+  text-align: center;
+}
+
+.home-channel-list li{
+  float: left;
+  height: 98px;
+  position: relative;
+}
+
+.home-channel-list>li.s1{
+  width: 288px;
+  height: 72px;
+  margin: 13px 0;
+}
+
+.home-channel-list>li.s2{
+  width: 602px;
+  height: 72px;
+  margin: 13px 0;
+  border-left: 1px solid #eaeaea;
+}
+
+.home-channel-list>li.s2 li{
+  height: 72px;
+  width: 16.6666667%;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.home-channel-list li.s2 li .p-img{
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.home-channel-list li.s2 li .p-dec{
+  font-size: 12px;
+  line-height: 20px;
+  color: #3a3a3a;
+  margin: 0 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.home-channel-list li.s2>ul>li:hover .p-dec{
+  color: red;
+}
+
+.home-channel-list li.s2 li .p-img img{
+  position: absolute;
+}
+
+.home-channel-list li.s2 li:nth-child(1) .p-img img{
+  left: 0;
+}
+
+.home-channel-list li.s2 li:nth-child(2) .p-img img{
+  left: -40px;
+}
+
+.home-channel-list li.s2 li:nth-child(3) .p-img img{
+  left: -80px;
+}
+
+.home-channel-list li.s2 li:nth-child(4) .p-img img{
+  left: -120px;
+}
+
+.home-channel-list li.s2 li:nth-child(5) .p-img img{
+  left: -160px;
+}
+
+.home-channel-list li.s2 li:nth-child(6) .p-img img{
+  left: -200px;
+}
+
+
+.home-channel-list>li.s3{
+  width: 301px;
+  border-left: 1px solid #eaeaea;
+}
+
+.home-promo-list{
+  margin: 0 -6px;
+}
+
+.home-promo-list li{
+  float: left;
+  margin: 0 6px;
+  width: 291px;
+  height: 160px;
+}
+
+#main{
+  background: #f5f5f5;
+  width: 100%;
+  overflow: hidden;
+  min-width: 1200px;
+  position: relative;
+}
+
+.home-channel-floor .h{
+  overflow: hidden;
+  margin: 22px 0 12px;
+  line-height: 36px;
+  position: relative;
+}
+
+.home-channel-floor .channel-title{
+  color: #333;
+  font-size: 24px;
+}
+
+.home-channel-floor .channel-nav{
+  margin-left: 28px;
+}
+
+.home-channel-floor .channel-nav li{
+  float: left;
+  font-size: 12px;
+}
+
+.home-channel-floor .channel-nav a{
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 10px;
+  color: #a4a4a4;
+  position: relative;
+}
+
+.home-channel-floor .channel-nav a::after{
+  content: "";
+  width: 0;
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  height: 2px;
+  background: #ca151d;
+}
+
+.home-channel-floor .channel-nav a:hover{
+  color: #ca151d;
+}
+
+.home-channel-floor .channel-nav a:hover::after{
+  width: 100%;
+}
+
+.home-channel-floor .channel-more{
+  text-align: center;
+}
+
+.home-channel-floor .channel-more a{
+  padding: 0 14px;
+  font-size: 18px;
+  color: #666;
+}
+
+.home-channel-floor .channel-more a:hover{
+  color: #ca151d;
+}
+
+.goods-items{
+  background: #fff;
+  float: left;
+  position: relative;
+  z-index: 1;
+  transition: all 0.2s linear 0s;
+}
+
+#main>div[id]{
+  height: 787px;
+}
+
+.goods .goods-items{
+  height: 346px;
+  width: 291px;
+  margin-top: 12px;
+  margin-left: 9px;
+  margin-bottom: 0;
+}
+
+.goods-items:hover{
+  box-shadow: 0 10px 15px rgba(0, 0, 0,0.07);
+  transform: translate3d(0,-2px,0);
+  z-index: 2;
+}
+
+.goods-items>a{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.goods .goods-items .grid-img{
+  margin: 36px auto 0;
+  width: 178px;
+  height: 178px;
+}
+
+.goods .goods-items .grid-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.goods .goods-items .grid-title{
+  font-size: 14px;
+  font-weight: 400;
+  height: 40px;
+  width: 259px;
+  display: table-cell;
+  vertical-align: bottom;
+  padding: 5px 16px 0;
+  color: #3a3a3a;
+  overflow: hidden;
+  margin: 16px 20px 2px;
+  white-space: nowrap;
+}
+
+.goods .goods-items .grid-desc{
+  font-size: 12px;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #a4a4a4;
+  margin: 4px 20px 10px;
+}
+
+.goods-items .grid-price{
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 20px 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #cc0e11;
+}
+
+.h20{
+  height: 20px;
+}
+
+.naver-floor{
+  position: fixed;
+  z-index: 10;
+  width: 100px;
+  height: 248px;
+  top: 230px;
+  right: 0;
+  background: transparent;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transform: translate3d(100px ,0, 0);
+  -moz-transform: translate3d(100px, 0 ,0); 
+  -ms-transform: translate3d(100px, 0, 0); 
+  -o-transform: translate3d(100px, 0, 0); 
+  transform: translate3d(100px,0,0);
+}
+
+.tool-fixed{
+  -webkit-transform: translate3d(0 ,0, 0);
+  -moz-transform: translate3d(0, 0 ,0); 
+  -ms-transform: translate3d(0, 0, 0); 
+  -o-transform: translate3d(0, 0, 0); 
+  transform: translate3d(0,0,0);
+}
+
+.naver-floor .hover-list li{
+  text-align: right;
+  padding-right: 12px;
+  border-bottom: 1px solid transparent;
+  font-size: 12px;
+  line-height: 46px;
+  position: relative;
+}
+
+.naver-floor .hover-list li a{
+  color: #666;
+  transition: all 0.6s ease;
+}
+
+.naver-floor .hover-list li:hover a{
+  color: #ca151d;
+  padding-right: 4px;
+}
+
+.naver-floor .hover-list li::before{
+  content: "";
+  position: absolute;
+  width: 0;
+  background: #ca151d;
+  height: 1px;
+  right: 0;
+  bottom: -1px;
+  transition: width 0.5s ease;
+}
+
+.naver-floor .hover-list li.hover::before{
+  width: 100%;
+}
+
+.naver-floor .hover-list li.hover a{
+  color: #ca151d;
+}
+
+/*# sourceMappingURL=index.css.map */

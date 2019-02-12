@@ -1,0 +1,289 @@
+.container {
+    width: 1200px;
+}
+
+.relative {
+    position: relative;
+}
+
+#shopCart {
+    width: 100%;
+}
+
+#header .progress-area{
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+.progress-area div{
+    width: 425px;
+    height: 50px;
+    overflow: hidden;
+    background: transparent url(../images/shopCart/sprites6.8c58970.png) 0 0 no-repeat;
+}
+
+#header span{
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.h20{
+    height: 20px;
+}
+
+.h5{
+    height: 5px;
+}
+
+#main{
+    background: rgb(245, 245, 245);
+    padding-top: 10px;
+}
+
+#main .login-prompt{
+    border: 1px solid #eace85;
+    background: #fffdee;
+    color: #ca141d;
+    line-height: 48px;
+    padding: 0 20px;
+    font-size: 12px;    
+}
+
+#main .login-prompt a{
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    display: inline-block;
+    background: #ca141d;
+    color: #fff;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 2px;
+}
+
+#main .sc-list{
+    /* background: #fff; */
+    margin-top: 20px;
+    font-size: 12px;
+    color: #3a3a3a;
+}
+
+.sc-pro-title{
+    background: #fff;
+    line-height: 40px;
+    padding-left: 40px;
+    color: #a4a4a4;
+}
+
+.sc-pro-title label{
+    width: 150px;
+    float: left;
+}
+
+.checkbox input{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background: url(../images/shopCart/icon-header.2e284b2.png) -18px -129px no-repeat;
+    vertical-align: text-top;
+    color: hsla(0%, 0%, 100%, 0);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.checkbox input.checked{
+    background-position: 0 -129px;
+}
+
+.sc-pro-title li,.sc-pro-list li{
+    float: left;
+    width: 130px;
+    margin-left: 30px;
+    min-height: 14px;
+    text-align: center;
+}
+
+.sc-pro-title li:first-child,.sc-pro-list li:first-child{
+    margin-left: 0px;
+    width: 350px;
+}
+
+.haveNoGoods{
+    height: 30px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #ca151e;
+    background: #fff;
+    line-height: 30px;
+}
+
+.sc-pro-list{
+    background: #fff;
+    padding-left: 40px;
+    margin-top: 10px;
+    padding-top: 20px;  
+}
+
+.sc-pro-list>label{
+    float: left;
+    margin: 43px 3px 0 0;
+}
+
+.sc-pro-main{
+    width: 1130px;
+    float: left;
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.sc-pro-main .p-img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+
+.sc-pro-main .p-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.sc-pro-main .p-num{
+    width: 63px;
+    height: 44px;
+    margin: 0 auto;
+    border: 1px solid #d6d6d6;
+    border-radius: 2px;
+}
+
+.p-num .p-num-text{
+    float: left;
+    width: 41px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.p-num .p-num-btn{
+    float: left;
+    width: 22px;
+}
+
+.p-num-btn button{
+    display: block;
+    cursor: pointer;
+    font-size: 18px;
+    width: 21px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: 700;
+    color: #777;
+    background: #fff;
+    border-left: 1px solid #e2e2e2;    
+}
+
+.pro-add{
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.p-price-total{
+    color: #ca141d;
+    font-weight: 600;
+}
+
+.p-del button{
+    color: #a4a4a4;
+    background: #fff;
+    cursor: pointer;
+}
+
+.p-del button:hover{
+    color: #ca151e;
+}
+
+.sc-total-tool{
+    margin-top: 10px;
+    background: #fff;
+    height: 60px;
+}
+
+.sc-total-tool .sc-total-control{
+    float: left;
+    line-height: 60px;
+}
+
+.sc-total-tool .sc-total-control label{
+    float: left;
+    margin-left: 40px;
+}
+
+.sc-total-tool .sc-total-control button{
+    margin-left: 20px;
+    cursor: pointer;
+    background: #fff;
+}
+
+.sc-total-tool .sc-total-control button:hover{
+    color: #ca151e;
+}
+
+.sc-total-tool .sc-total-btn{
+    float: right;
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    background: #ca151e;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sc-total-tool .sc-total-price{
+    float: right;
+    padding-right: 30px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.sc-total-tool .sc-total-price p{
+    font-size: 14px;
+    position: relative;
+}
+
+.sc-total-tool .sc-total-price p span{
+    color: #ca151e;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sc-total-tool .sc-total-price .total-choose{
+    color: #a4a4a4;
+    font-size: 12px;
+}
+
+.sc-total-tool .sc-total-price .total-choose em{
+    color: #ca151e;
+    margin: 0 5px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

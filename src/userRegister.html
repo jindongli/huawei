@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>注册_华为账号</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/register.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <ul class="head-center container">
+            <li class="main-logo fl"></li>
+            <li> 华为商城</li>
+        </ul>
+    </div>
+    <div id="main">
+        <div class="container">
+            <div class="login">
+                <p class="fr">
+                    <span>已有华为账号</span>
+                    <a href="login.html">登录</a>
+                    <span>></span>
+                </p>
+            </div>
+            <div class="register">
+                <div id="reg">
+                    <!-- <form name="reg" method="POST"> -->
+                    <dl>
+                        <dd>用 &nbsp;户 &nbsp;名：
+                            <input id="uname" type="text" name="user" class="text" />
+                            <span id="info_user" class="info info_user">长度3~20位，由中文字符、字母、数字和下划线组成</span>
+                            <span id="error_user" class="error error_user">输入不合法，请重新输入!</span>
+                            <span id="succ_user" class="succ succ_user">可用</span>
+                            <span id="loading" class="loading">正在检测用户名...</span>
+                        </dd>
+                        <dd>密 &nbsp; &nbsp; &nbsp; 码：
+                            <input id="pwd" type="password" name="pass" class="text" />
+                            <span id="info_pass" class="info info_pass">
+                                <p>安全级别：
+                                    <strong id="s1" class="s s1">■</strong>
+                                    <strong id="s2" class="s s2">■</strong>
+                                    <strong id="s3" class="s s3">■</strong>
+                                    <strong class="s s4" style="font-weight: normal;"></strong>
+                                </p>
+                                <p>
+                                    <strong id="q1" style="font-weight: normal;">○</strong> 6-20个字符</p>
+                                <p>
+                                    <strong id="q2" style="font-weight: normal;">○</strong> 只能包含大小写字母、数字和非空格字符</p>
+                                <p>
+                                    <strong id="q3" style="font-weight: normal;">○</strong> 大、小写字母和数字,2种以上</p>
+                            </span>
+                            <span id="error_pass" class="error error_pass">输入不合法，请重新输入!</span>
+                            <span id="succ_pass" class="succ succ_pass">可用</span>
+                        </dd>
+                        <dd>密码确认：
+                            <input id="pswAgin" type="password" name="notpass" class="text" />
+                            <span id="info_notpass" class="info info_notpass">请再一次输入密码！</span>
+                            <span id="error_notpass" class="error error_notpass">密码不一致，请重新输入!</span>
+                            <span id="succ_notpass" class="succ succ_notpass">可用</span>
+                        </dd>
+                        <dd>验 &nbsp;证 &nbsp;码：
+                            <input id="verification" type="text" class="text" />
+                            <span id="verifi_num" class="">2ab4</span>
+                        </dd>
+                        <dd>电子邮件：
+                            <input id="email" type="text" name="email" class="text" autocomplete="off" />
+                            <span id="info_email" class="info info_email">请输入电子邮箱！</span>
+                            <span id="error_email" class="error error_email">邮箱不合法，请重新输入!</span>
+                            <span id="succ_email" class="succ succ_email">可用</span>
+                            <ul id="all_email" class="all_email">
+                                <li>
+                                    <span class="emailText"></span>@qq.com</li>
+                                <li>
+                                    <span class="emailText"></span>@163.com</li>
+                                <li>
+                                    <span class="emailText"></span>@souhu.com</li>
+                                <li>
+                                    <span class="emailText"></span>@sina.com.cn</li>
+                                <li>
+                                    <span class="emailText"></span>@gmail.com</li>
+                                <li>
+                                    <span class="emailText"></span>@yahoo.com.cn</li>
+                                <li>
+                                    <span class="emailText"></span>@yeah.net</li>
+                            </ul>
+                        </dd>
+                        <dd class="birthday">生 &nbsp; &nbsp; &nbsp; 日：
+                            <select id="year" name="year">
+                                <option value="0">-年-</option>
+                            </select>-
+                            <select id="month" name="month">
+                                <option value="0">-月-</option>
+                            </select>-
+                            <select id="day" name="day">
+                                <option value="0">-日-</option>
+                            </select>
+                            <span class="error error_birthday">尚未全部选择，请选择!</span>
+                        </dd>
+                        <dd>
+                            <button id="userBtn">注册</button>
+                        </dd>
+                    </dl>
+                    <!-- </form> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container ft">
+            <ul>
+                <li><a href="#">华为帐号用户协议</a></li>
+                <li><a href="#">关于华为帐号与隐私的声明</a></li>
+                <li><a href="#">常见问题</a></li>
+            </ul>
+            <p>Copyright © 2011-2018 华为软件技术有限公司 版权所有 保留一切权利 苏B2-20070200号 | 苏ICP备09062682号-9</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,153 @@
+#huawei .shortcut{
+  min-width: 1200px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #fff;
+}
+
+.shortcut .s-sub{
+  float: left;
+}
+
+.shortcut .s-main{
+  float: right;
+  margin-right: -18px;
+}
+
+.shortcut li{
+  float: left;
+  height: 30px;
+  padding: 0 8px;
+  position: relative;
+}
+
+.shortcut li:first-child{
+  padding-left: 0px;
+}
+
+.shortcut li+li::before{
+  content: "";
+  width: 1px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  background-color: #e4e4e4;
+}
+
+.shortcut a{
+  font-size: 12px;
+  cursor: pointer;
+  color: #a4a4a4;
+}
+
+.shortcut a:hover{
+  color: #ca151d;
+}
+
+#huawei #header {
+  min-width: 1200px;
+  height: 50px;
+  padding: 10px 0;
+  background: #fff;
+  position: relative;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.06);
+  line-height: 1.5;
+  font-size: 12px;
+}
+
+#header h1{
+  float: left;
+  width: 240px;
+  height: 50px;
+  margin-right: 40px;
+}
+
+#header .naver{
+  max-width: 560px;
+  height: 40px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.naver li{
+  float: left;
+  margin-right: 20px;
+}
+
+.naver a{
+  display: block;
+  line-height: 40px;
+  position: relative;
+  top: -2px;
+  font-size: 16px;
+  color: #3a3a3a;
+  transition: all 0.2s;
+  border-bottom: 2px solid #fff;
+}
+
+.naver a:hover{
+  color: #ca151d;
+  border-bottom: 2px solid #ca151d;
+}
+
+#header .searchBox{
+  width: 330px;
+  height: 42px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.searchBox .search-bar-form{
+  line-height: 1px;
+  border: 1px solid #ddd;
+  width: 328px;
+  height: 30px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.search-bar-form form input[type=text]{
+  background: #fff;
+  border: 0;
+  color: #3a3a3a;
+  width: 299px;
+  padding-left: 10px;
+  height: 32px;
+  line-height: 32px;
+}
+
+.search-bar-form form input[type=button]{
+  width: 20px;
+  height: 33px;
+  cursor: pointer;
+  border: 0;
+  text-indent: -9999px;
+  overflow: hidden;
+  position: absolute;
+  right: 12px;
+  background: url(../images/vmail/icon-common.png) 0 -21px no-repeat;
+}
+
+.searchBox .search-bar-key{
+  position: absolute;
+  left: 10px;
+  bottom: 17px;
+  max-width: 280px;
+  z-index: 2;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.searchBox .search-bar-key a{
+  color: #a4a4a4;
+  font-size: 12px;
+  margin-right: 10px;
+  padding: 4px 4px 1px;
+  background: #f5f5f5;
+}
+
+
+
+

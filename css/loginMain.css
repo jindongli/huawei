@@ -1,0 +1,76 @@
+#main>.g{
+    background-color: #081638;
+}
+
+#main>p{
+    font-size: 12px;
+    width: 100%;
+    min-width: 1130px;
+    height: 35px;
+    position: absolute;
+    top: 0px;
+    line-height: 35px;
+    color: #989898;
+    text-align: center;
+    background: rgb(252, 252, 228);
+}
+
+.g>.container{
+    width: 1130px;
+    height: 590px;
+    position: relative;
+    background-size: cover;
+    background-image: url(../images/login/login_default_bg.png);
+    background-repeat: no-repeat;
+}
+
+#login {
+    width: 300px;
+    position: absolute;
+    background: white;
+    display: block;
+    top: 150px;
+    right: 150px;
+    padding: 30px 20px;
+}
+
+
+#login h2 {
+    text-align: center;
+    font-size: 16px;
+}
+
+#login form {
+    padding: 0 20px;
+}
+
+#login form input {
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 0 5px;
+}
+
+#login form input[name]:focus {
+    border-color: blue;
+}
+
+
+#login form input[type="button"] {
+    color: white;
+    font-weight: 600;
+    background-color: #840707;
+    cursor: pointer;
+}
+
+#filter {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(128, 128, 128, 0.7);
+}

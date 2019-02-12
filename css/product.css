@@ -1,0 +1,273 @@
+.container {
+    width: 1200px;
+}
+
+.relative {
+    position: relative;
+}
+
+#product {
+    width: 100%;
+}
+
+.h20{
+    height: 20px;
+}
+
+.h5{
+    height: 5px;
+    background: #ddd;
+}
+
+#main{
+    background: #fff;
+}
+
+.product{
+    height: 630px;
+}
+
+.product>.fl{
+    width: 450px;
+    font-size: 0;
+}
+
+.product .pro-area{
+    position: relative;
+    width: 450px;
+    height: 450px;
+}
+
+#small-img{
+    display: block;
+    width: 450px;
+    height: 450px;
+}
+
+#small-area{
+    display: none;
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    top: 0;
+    left: 0;
+    border: 1px solid #777;
+    background: #fff;
+    opacity: 0.5;
+    cursor: move;
+}
+
+#big-area{
+    display: none;
+    position: absolute;
+    left: 460px;
+    top: 10px;
+    width: 400px;
+    height: 400px;
+    z-index: 10;
+    border: 1px solid #777;
+    overflow: hidden;
+}
+
+#big-img{
+    position: absolute;
+}
+
+.pro-nav{
+    width: 450px;
+    height: 68px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.pro-nav>button{
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 68px;
+    background: #fff;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.pro-nav>button::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-top: 6px;
+    background: url(../images/pro/icon50.png) -48px -29px no-repeat;
+}
+
+#pro-next::before{
+    background-position-x: -78px;
+}
+
+.pro-nav>button:hover::before{
+    background-position-y: -59px;
+}
+
+#pro-prev{
+    left: 0;
+}
+
+#pro-next{
+    right: 0;
+}
+
+.pro-nav>div{
+    width: 370px;
+    height: 68px;
+    margin-left: 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+#pro-items{
+    position: absolute;
+    height: 68px;
+    left: 0;
+    top: 0;
+    width: 500%;
+}
+
+#pro-items li{
+    float: left;
+    padding: 0 3px;
+}
+
+#pro-items li img{
+    display: block;
+    width: 66px;
+    height: 66px;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+#pro-items li.current  img{
+    border-color: #ca141d;
+}
+
+.product .fr{
+    width: 700px;
+    padding: 0 0 104px 30px;
+}
+
+.product h2{
+    font-size: 21px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.product h2+p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    color: #ca141d;
+}
+
+.product #pro-price{
+    color:#3a3a3a;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.product #pro-price b{
+    font-size: 24px;
+    color: #ca141d;
+    padding-left: 24px;
+    line-height: 30px;
+}
+
+.product p+p{
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+
+.product p+p span{
+    padding-left: 26px;
+}
+
+.product p+div{
+    border-top: 1px solid #ddd;
+    width: 700px;
+    height: 260px;
+    background: url(../images/pro/pro-info.png) -10px 20px no-repeat;
+}
+
+.product .pro-count-area{
+    font-size: 12px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.product .pro-count-area input{
+    margin-left: 24px;
+    width: 39px;
+    height: 42px;
+    line-height: 44px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    text-align: center;
+    border-right: none;
+}
+
+.product .pro-count-area p{
+    width: 21px;
+    position: absolute;
+    left: 116px;
+    top: 0px;
+}
+
+.product .pro-count-area button{
+    display: block;
+    width: 21px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 16px;
+    text-align: center;
+    color: #777;
+    font-weight: bold;
+    background: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.product #pro-buy{
+    display: block;
+    background: #fc600c;
+    width: 172px;
+    height: 46px;
+    border-radius: 2px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 46px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.product #pro-buy:hover{
+    background: #fd803d;
+}
+
+.moveImg{
+    width: 66px;
+    height: 66px;
+    border: 1px solid #ca141d;
+    position: absolute;
+}
+
+.moveImg img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+

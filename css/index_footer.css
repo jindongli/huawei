@@ -1,0 +1,196 @@
+
+
+#channnel-floor{
+    background: #f5f5f5;
+    width: 100%;
+    min-width: 1200px;
+}
+  
+#channnel-floor .h60{
+    height: 60px;
+}
+  
+.service-container, .slogan-container {
+    background: #f0f0f0;
+    width: 100%;
+    min-width: 1200px;
+}
+  
+.slogan{
+    padding: 46px 0;
+    overflow: hidden;
+}
+  
+.slogan li{
+    float: left;
+    line-height: 47px;
+    font-size: 18px;
+    height: 47px;
+    width: 300px;
+    text-align: left;
+}
+  
+.slogan li a{
+    color: #3a3a3a;
+}
+  
+.slogan li i{
+    display: inline-block;
+    line-height: 47px;
+    width: 47px;
+    height: 47px;
+    margin-right: 15px;
+    vertical-align: middle;
+    background: url(../images/vmail/icon-common.png);
+}
+  
+.slogan li.s1 i{
+    background-position: 0 -151px;
+}
+  
+.slogan li.s2 i{
+    background-position: -94px -151px;
+}
+  
+.slogan li.s3 i{
+    background-position: -141px -151px;
+}
+  
+.slogan li.s4 i{
+    background-position: -47px -151px;
+}
+  
+.service-container .service{
+    border-top: 1px solid #e8e8e8;
+    padding: 26px 0 18px;
+    overflow: hidden;
+}
+  
+.service .service-l {
+    width: 944px;
+    min-height: 164px;
+    margin-top: 2px;
+    border-right: 1px solid #ebebeb;
+}
+  
+.service dl{
+    float: left;
+}
+  
+.service dt{
+    font-size: 14px;
+    color: #3a3a3a;
+}
+  
+.service dt .line{
+    background: #a8a8a8;
+    width: 22px;
+    height: 2px;
+    margin: 2px 0 12px;
+}
+  
+.service dt .title{
+    font-size: 14px;
+    padding-bottom: 12px;
+    color: #3a3a3a;
+    display: block;
+    padding-left: 0;
+    border-left: 0;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+  
+.service .service-l dl {
+    width: 16.6667%;
+}
+  
+.service dd li{
+    line-height: 24px;
+}
+  
+.service dd a{
+    font-size: 12px;
+    color: #666;
+}
+  
+.service dd a:hover{
+    color:#ca141d;
+}
+  
+.service .service-r{
+    width: 210px;
+    min-height: 164px;
+    margin-top: 2px;
+    padding-left: 40px;
+}
+  
+.service dl.s7 .title{
+    font-size: 24px;
+    padding: 0;
+}
+  
+.service dl.s7 dd ol li:first-child a:hover{
+    cursor: text;
+    color: #666;
+}
+  
+.service dl.s7 dd ol li+li a{
+    display: block;
+    width: 161px;
+    height: 35px;
+    font-size: 14px;
+    line-height: 35px;
+    background: #fff;
+    text-align: center;
+    color: #900;
+    padding: 0;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+  
+.service dl.s7 dd ol li+li a i{
+    display: inline-block;
+    height: 18px;
+    width: 22px;
+    margin-right: 18px;
+    vertical-align: middle;
+    background: url(../images/vmail/icon-common.png) -101px -23px no-repeat;
+}
+  
+.footer{
+    background: #e6e6e6;
+    border-top: 1px solid #eee;
+}
+  
+.footer>div{
+    padding: 26px 0 34px;
+    color: #666;
+    line-height: 1.5;
+}
+  
+.footer-warrant-area{
+    text-align: left;
+    color: #a4a4a4;
+    line-height: 20px;
+}
+  
+.footer-warrant-logo{
+    width: 79px;
+    height: 16px;
+    padding: 20px 38px 0 0 ;
+}
+  
+.footer a{
+    font-size: 12px;
+    color: #a4a4a4;
+    line-height: 20px;
+}
+  
+.footer a:hover{
+    color: #ca141d;
+}
+  
+.footer-warrant-img{
+    padding: 13px 0 0;
+}
